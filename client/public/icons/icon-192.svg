@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#0f172a"/>
+  <rect x="16" y="16" width="160" height="160" rx="24" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/>
+  <path d="M96 40L60 64v32l36 24 36-24V64L96 40z" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M60 76v20l36 24 36-24V76" fill="none" stroke="#34d399" stroke-width="3" stroke-linejoin="round" opacity="0.6"/>
+  <circle cx="96" cy="64" r="8" fill="#60a5fa"/>
+  <text x="96" y="160" font-family="system-ui" font-size="28" font-weight="bold" fill="#f1f5f9" text-anchor="middle">SB</text>
+</svg>
