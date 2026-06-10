@@ -1,0 +1,87 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" style="background:#0a0f1e;border-radius:16px;overflow:hidden">
+  <defs>
+    <linearGradient id="roleBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="380" fill="url(#roleBg)"/>
+
+  <text x="450" y="36" font-family="'Inter',system-ui,sans-serif" font-size="15" font-weight="700" fill="#94a3b8" text-anchor="middle" letter-spacing="3">ROLE-BASED ACCESS CONTROL</text>
+  <text x="450" y="54" font-family="'Inter',system-ui,sans-serif" font-size="11" fill="#475569" text-anchor="middle">Three distinct portals — one unified platform</text>
+
+  <!-- CONTRACTOR COLUMN -->
+  <rect x="30" y="72" width="252" height="290" rx="16" fill="#0d1b2e" stroke="#1e3a8a" stroke-width="1.5"/>
+  <!-- Header -->
+  <rect x="30" y="72" width="252" height="52" rx="16" fill="#1e3a8a"/>
+  <rect x="30" y="100" width="252" height="24" fill="#1e3a8a"/>
+  <text x="156" y="100" font-family="'Inter',system-ui,sans-serif" font-size="22" text-anchor="middle">🏗️</text>
+  <text x="156" y="116" font-family="'Inter',system-ui,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Contractor</text>
+  <!-- Feature list -->
+  <g font-family="'Inter',system-ui,sans-serif" font-size="11" fill="#94a3b8">
+    <text x="54" y="148">✅  Full dashboard &amp; analytics</text>
+    <text x="54" y="168">✅  Create &amp; manage sites</text>
+    <text x="54" y="188">✅  Register workers + bulk CSV</text>
+    <text x="54" y="208">✅  Generate wage runs + PDF</text>
+    <text x="54" y="228">✅  EPF / ESIC computation</text>
+    <text x="54" y="248">✅  BOCW Muster Roll export</text>
+    <text x="54" y="268">✅  AI anomaly + dispute + forecast</text>
+    <text x="54" y="288">✅  Assign supervisors to sites</text>
+    <text x="54" y="308">✅  Compliance deadline tracker</text>
+    <text x="54" y="328">✅  WhatsApp payslip dispatch</text>
+    <text x="54" y="348">✅  Material inventory + reports</text>
+  </g>
+
+  <!-- SUPERVISOR COLUMN -->
+  <rect x="324" y="72" width="252" height="290" rx="16" fill="#0d1b2e" stroke="#065f46" stroke-width="1.5"/>
+  <rect x="324" y="72" width="252" height="52" rx="16" fill="#065f46"/>
+  <rect x="324" y="100" width="252" height="24" fill="#065f46"/>
+  <text x="450" y="100" font-family="'Inter',system-ui,sans-serif" font-size="22" text-anchor="middle">👷</text>
+  <text x="450" y="116" font-family="'Inter',system-ui,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Supervisor</text>
+  <g font-family="'Inter',system-ui,sans-serif" font-size="11" fill="#94a3b8">
+    <text x="348" y="148">✅  Daily attendance marking</text>
+    <text x="348" y="168">✅  Geo-validated check-in</text>
+    <text x="348" y="188">✅  Offline attendance queue</text>
+    <text x="348" y="208">✅  Auto background sync</text>
+    <text x="348" y="228">✅  Worker lookup by phone</text>
+    <text x="348" y="248">✅  Photo evidence upload</text>
+    <text x="348" y="268">✅  Material inward/outward log</text>
+    <text x="348" y="288">✅  Site overview card</text>
+    <text x="348" y="308">🔒  No wage edit access</text>
+    <text x="348" y="328">🔒  No cross-site visibility</text>
+    <text x="348" y="348">🔒  No compliance reports</text>
+  </g>
+
+  <!-- COMPLIANCE COLUMN -->
+  <rect x="618" y="72" width="252" height="290" rx="16" fill="#0d1b2e" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="618" y="72" width="252" height="52" rx="16" fill="#4c1d95"/>
+  <rect x="618" y="100" width="252" height="24" fill="#4c1d95"/>
+  <text x="744" y="100" font-family="'Inter',system-ui,sans-serif" font-size="22" text-anchor="middle">🛡️</text>
+  <text x="744" y="116" font-family="'Inter',system-ui,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Compliance Officer</text>
+  <g font-family="'Inter',system-ui,sans-serif" font-size="11" fill="#94a3b8">
+    <text x="642" y="148">✅  All-site compliance view</text>
+    <text x="642" y="168">✅  EPF/ESIC status per site</text>
+    <text x="642" y="188">✅  Overdue filings flagged</text>
+    <text x="642" y="208">✅  Wage run verification</text>
+    <text x="642" y="228">✅  BOCW cess tracker</text>
+    <text x="642" y="248">✅  Audit trail access</text>
+    <text x="642" y="268">✅  Export compliance report</text>
+    <text x="642" y="288">🔒  Read-only (no edits)</text>
+    <text x="642" y="308">🔒  No worker modifications</text>
+    <text x="642" y="328">🔒  No attendance marking</text>
+    <text x="642" y="348">🔒  No financial operations</text>
+  </g>
+
+  <!-- Worker Portal (bottom strip) -->
+  <!-- animated pulse on each role card header -->
+  <rect x="30" y="72" width="252" height="52" rx="16" fill="none" stroke="#60a5fa" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="324" y="72" width="252" height="52" rx="16" fill="none" stroke="#34d399" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="618" y="72" width="252" height="52" rx="16" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="3s" begin="2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

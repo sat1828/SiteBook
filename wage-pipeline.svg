@@ -1,0 +1,136 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" style="background:#0a0f1e;border-radius:16px;overflow:hidden">
+  <defs>
+    <linearGradient id="aiBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#1a0f2e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="420" fill="url(#aiBg)"/>
+
+  <!-- Title -->
+  <text x="450" y="34" font-family="'Inter',system-ui,sans-serif" font-size="15" font-weight="700" fill="#94a3b8" text-anchor="middle" letter-spacing="3">WAGE RUN PIPELINE  ·  AI-POWERED ENGINE</text>
+
+  <!-- Pipeline steps - top row -->
+  <!-- Step 1 -->
+  <rect x="30" y="60" width="140" height="100" rx="14" fill="#0d1b2e" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="100" y="88" font-family="'Inter',system-ui,sans-serif" font-size="24" text-anchor="middle">📋</text>
+  <text x="100" y="108" font-family="'Inter',system-ui,sans-serif" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">Attendance</text>
+  <text x="100" y="122" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Daily marks</text>
+  <text x="100" y="136" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">full/half/OT/absent</text>
+  <text x="100" y="150" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#475569" text-anchor="middle">Geo + Photo proof</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="170" y1="110" x2="196" y2="110" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowB)" stroke-dasharray="4,2">
+    <animate attributeName="stroke-dashoffset" values="0;-12" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrowY" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#fbbf24"/>
+    </marker>
+    <marker id="arrowP" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#a78bfa"/>
+    </marker>
+  </defs>
+
+  <!-- Step 2 -->
+  <rect x="196" y="60" width="140" height="100" rx="14" fill="#0d1b2e" stroke="#065f46" stroke-width="1.5"/>
+  <text x="266" y="88" font-family="'Inter',system-ui,sans-serif" font-size="24" text-anchor="middle">🔢</text>
+  <text x="266" y="108" font-family="'Inter',system-ui,sans-serif" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">Aggregation</text>
+  <text x="266" y="122" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">MongoDB pipeline</text>
+  <text x="266" y="136" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Days × Rate calc</text>
+  <text x="266" y="150" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#475569" text-anchor="middle">OT @ 1.5× rate</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="336" y1="110" x2="362" y2="110" stroke="#34d399" stroke-width="2" marker-end="url(#arrowG)" stroke-dasharray="4,2">
+    <animate attributeName="stroke-dashoffset" values="0;-12" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Step 3 -->
+  <rect x="362" y="60" width="140" height="100" rx="14" fill="#0d1b2e" stroke="#78350f" stroke-width="1.5"/>
+  <text x="432" y="88" font-family="'Inter',system-ui,sans-serif" font-size="24" text-anchor="middle">⚖️</text>
+  <text x="432" y="108" font-family="'Inter',system-ui,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">Statutory Cuts</text>
+  <text x="432" y="122" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">EPF 12%+12%</text>
+  <text x="432" y="136" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">ESIC 3.25%+0.75%</text>
+  <text x="432" y="150" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#475569" text-anchor="middle">Ceiling capped</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="502" y1="110" x2="528" y2="110" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowY)" stroke-dasharray="4,2">
+    <animate attributeName="stroke-dashoffset" values="0;-12" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Step 4 -->
+  <rect x="528" y="60" width="140" height="100" rx="14" fill="#0d1b2e" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="598" y="88" font-family="'Inter',system-ui,sans-serif" font-size="24" text-anchor="middle">✅</text>
+  <text x="598" y="108" font-family="'Inter',system-ui,sans-serif" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">Approve + Pay</text>
+  <text x="598" y="122" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Contractor approval</text>
+  <text x="598" y="136" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Payment reference</text>
+  <text x="598" y="150" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#475569" text-anchor="middle">Status: draft→paid</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="668" y1="110" x2="694" y2="110" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrowP)" stroke-dasharray="4,2">
+    <animate attributeName="stroke-dashoffset" values="0;-12" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Step 5 -->
+  <rect x="694" y="60" width="176" height="100" rx="14" fill="#0d1b2e" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="782" y="88" font-family="'Inter',system-ui,sans-serif" font-size="24" text-anchor="middle">📤</text>
+  <text x="782" y="108" font-family="'Inter',system-ui,sans-serif" font-size="11" font-weight="700" fill="#fca5a5" text-anchor="middle">Dispatch</text>
+  <text x="782" y="122" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">PDF Wage Slip</text>
+  <text x="782" y="136" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">BOCW Muster Roll</text>
+  <text x="782" y="150" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#475569" text-anchor="middle">WhatsApp via Twilio</text>
+
+  <!-- ═══ AI Section ═══ -->
+  <rect x="30" y="186" width="840" height="210" rx="14" fill="#12091f" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="450" y="210" font-family="'Inter',system-ui,sans-serif" font-size="14" font-weight="700" fill="#c4b5fd" text-anchor="middle">🧠  Claude AI Integration (claude-3-5-sonnet-20241022)</text>
+
+  <!-- AI cards -->
+  <!-- Anomaly -->
+  <rect x="54" y="222" width="240" height="154" rx="12" fill="#1a0f2e" stroke="#7c3aed" stroke-width="1"/>
+  <text x="174" y="248" font-family="'Inter',system-ui,sans-serif" font-size="20" text-anchor="middle">🔍</text>
+  <text x="174" y="268" font-family="'Inter',system-ui,sans-serif" font-size="12" font-weight="700" fill="#c4b5fd" text-anchor="middle">Anomaly Detection</text>
+  <text x="174" y="284" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Worker clocking in at</text>
+  <text x="174" y="298" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">impossible locations</text>
+  <text x="174" y="312" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">100% attendance streaks</text>
+  <text x="174" y="326" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Budget overruns flagged</text>
+  <text x="174" y="340" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#7c3aed" text-anchor="middle">Runs hourly via cron</text>
+  <!-- pulse -->
+  <circle cx="174" cy="248" r="16" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0">
+    <animate attributeName="r" values="12;24;12" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Dispute -->
+  <rect x="330" y="222" width="240" height="154" rx="12" fill="#1a1208" stroke="#d97706" stroke-width="1"/>
+  <text x="450" y="248" font-family="'Inter',system-ui,sans-serif" font-size="20" text-anchor="middle">⚖️</text>
+  <text x="450" y="268" font-family="'Inter',system-ui,sans-serif" font-size="12" font-weight="700" fill="#fbbf24" text-anchor="middle">Dispute Resolution</text>
+  <text x="450" y="284" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Worker submits complaint</text>
+  <text x="450" y="298" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">via phone number lookup</text>
+  <text x="450" y="312" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">AI checks attendance logs</text>
+  <text x="450" y="326" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Returns legal resolution</text>
+  <text x="450" y="340" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#d97706" text-anchor="middle">BOCW Act compliance aware</text>
+
+  <!-- Forecast -->
+  <rect x="606" y="222" width="240" height="154" rx="12" fill="#081a12" stroke="#059669" stroke-width="1"/>
+  <text x="726" y="248" font-family="'Inter',system-ui,sans-serif" font-size="20" text-anchor="middle">📈</text>
+  <text x="726" y="268" font-family="'Inter',system-ui,sans-serif" font-size="12" font-weight="700" fill="#6ee7b7" text-anchor="middle">Budget Forecasting</text>
+  <text x="726" y="284" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Next-month labour cost</text>
+  <text x="726" y="298" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">trends + projections</text>
+  <text x="726" y="312" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Historical wage analysis</text>
+  <text x="726" y="326" font-family="'Inter',system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Site-wise breakdowns</text>
+  <text x="726" y="340" font-family="'Inter',system-ui,sans-serif" font-size="9" fill="#059669" text-anchor="middle">Recharts visualized</text>
+</svg>
