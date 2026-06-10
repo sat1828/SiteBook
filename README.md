@@ -1,6 +1,6 @@
 <div align="center">
 
-![SiteBook Hero](./docs/hero.svg)
+![SiteBook Hero](/hero.svg)
 
 <br/>
 
@@ -40,7 +40,7 @@ Built with the full MERN stack, real-time Socket.IO events, PWA offline support,
 
 ## Live Dashboard
 
-![SiteBook Dashboard](./docs/dashboard.svg)
+![SiteBook Dashboard](./dashboard.svg)
 
 The contractor dashboard pulls live compliance deadlines, wage run summaries, weekly attendance charts, and a real-time activity feed — all behind a glassmorphism UI that works in both dark and light mode.
 
@@ -48,7 +48,7 @@ The contractor dashboard pulls live compliance deadlines, wage run summaries, we
 
 ## System Architecture
 
-![Architecture Diagram](./docs/architecture.svg)
+![Architecture Diagram](./architecture.svg)
 
 ### How the pieces connect
 
@@ -88,7 +88,7 @@ The client proxies `/api` requests to `localhost:5000` in dev. In production, Ex
 
 ## Role-Based Access Control
 
-![Role Access](./docs/roles.svg)
+![Role Access](./roles.svg)
 
 Three portals share one backend but see entirely different worlds:
 
@@ -113,7 +113,7 @@ Role enforcement happens at two layers: Express middleware (`roleGuard.js`) reje
 
 ## Wage Run Pipeline + AI Engine
 
-![Wage Run + AI](./docs/wage-pipeline.svg)
+![Wage Run + AI](./wage-pipeline.svg)
 
 ### The wage run in five steps
 
@@ -145,7 +145,7 @@ All AI features degrade gracefully — if `CLAUDE_API_KEY` is absent in `.env`, 
 
 ## Offline-First Architecture
 
-![Offline PWA](./docs/offline.svg)
+![Offline PWA](./offline.svg)
 
 This was built for real construction sites — patchy signal, dusty phones, field supervisors who can't wait for a page to load.
 
